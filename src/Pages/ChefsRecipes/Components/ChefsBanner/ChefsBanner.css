@@ -1,0 +1,20 @@
+.chefsBanner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.chefsBanner > div {
+  width: 50%;
+  padding: 1rem;
+}
+.chefsText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chefsBanner img {
+  width: 100%;
+}
+.chefsName {
+  font-size: 30px;
+}

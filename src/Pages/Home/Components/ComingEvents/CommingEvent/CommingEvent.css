@@ -1,0 +1,17 @@
+.ComingEvent {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(31, 31, 31);
+  color: rgb(160, 160, 160);
+}
+.eventHeader {
+  font-size: 40px;
+}
+.month {
+  text-transform: uppercase;
+}
+.ComingEvent .location {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}

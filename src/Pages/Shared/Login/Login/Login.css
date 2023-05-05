@@ -1,0 +1,47 @@
+#login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  height: 100vh;
+  text-align: center;
+}
+.shared {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-form {
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+#login-form > input {
+  width: 30rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+}
+.google-button,
+.github-button {
+  margin: 0.5rem 0;
+}
+@media (max-width: 1240px) {
+  .shared {
+    display: none;
+  }
+}
+@media (max-width: 535px) {
+  #login-form > input {
+    width: 80vw;
+  }
+}

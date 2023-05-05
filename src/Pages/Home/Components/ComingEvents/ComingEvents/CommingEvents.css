@@ -1,0 +1,42 @@
+#events {
+  min-width: 18rem;
+}
+.commingEvents {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eventsHeader {
+  color: rgb(168, 168, 168);
+}
+.commingEvents > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commingEvents > button {
+  background-color: rgb(211, 211, 211);
+  border: none;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  font-size: 1rem;
+  transition: background-color 0.5s;
+}
+
+.commingEvents > button:hover {
+  background-color: rgb(180, 180, 180);
+  cursor: pointer;
+}
+@media (min-width: 668px) and (max-width: 1020px) {
+  .commingEvents > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 667px) {
+  .commingEvents > div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,19 @@
+.not-found {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 102vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://i.ibb.co/3Y7dxHV/notfound.jpg');
+}
+
+@media only screen and (max-width: 600px) {
+  .not-found {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://i.ibb.co/C7NF6HB/phone-Not-Found.jpg');
+  }
+}

@@ -1,0 +1,17 @@
+.ourDetails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10rem;
+  min-width: 18rem;
+  color: rgb(201, 201, 201);
+}
+@media (min-width: 668px) and (max-width: 1020px) {
+  .ourDetails {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 667px) {
+  .ourDetails {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,28 @@
+.cards {
+  padding: 5px;
+  height: 100%;
+}
+.cards img {
+  aspect-ratio: 1/1;
+}
+.chefsSection {
+  margin: 10rem 1rem;
+}
+.chefsSection h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.ChefsLike {
+  font-size: 20px;
+}
+.navLink {
+  text-decoration: none;
+  color: grey;
+  transition: 300ms;
+}
+.navLink:hover,
+.navButton:hover .navLink {
+  color: white;
+}
